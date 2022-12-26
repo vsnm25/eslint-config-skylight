@@ -1,13 +1,19 @@
 {
   "name": "eslint-config-skylight",
   "version": "1.0.0",
-  "description": "eslint config by skylight",
+  "description": "eslint config by vsnm25",
   "main": "index.js",
   "keywords": [
     "eslint",
     "react"
   ],
-  "author": "skylight <vsnm25@gmail.com>",
+  "author": {
+    "email": "vsnm25@gmail.com",
+    "name": "vsnm25",
+    "url": "https://github.com/vsnm25"
+  },
+  "bugs": "https://github.com/vsnm25/eslint-config-skylight/issues",
+  "homepage": "https://github.com/vsnm25/eslint-config-skylight#readme",
   "license": "MIT",
   "exports": {
     ".": "./index.js",
