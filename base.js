@@ -1,6 +1,7 @@
 module.exports = {
     extends: ['airbnb-base'],
     parserOptions: { ecamVersion: 'latest' },
+    plugins: ['simple-import-sort', 'sort-destructure-keys', 'sort-keys-fix'],
     rules: {
         'simple-import-sort/imports': 'warn',
         'simple-import-sort/exports': 'warn',

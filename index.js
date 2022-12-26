@@ -27,7 +27,6 @@ module.exports = {
         'airbnb',
         'airbnb-typescript',
         'airbnb/hooks',
-        'plugin:react/jsx-runtime',
       ],
       files: '**/*.ts?(x)',
       rules,
