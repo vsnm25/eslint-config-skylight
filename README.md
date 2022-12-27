@@ -1,7 +1,7 @@
 # eslint-config-skylight
 [![](https://img.shields.io/npm/v/eslint-config-skylight)](https://www.npmjs.com/package/eslint-config-skylight)
 
-This package provides an extensible shared cofig for `eslintrc`.
+This package provides an extensible shared config for `eslintrc`.
 
 ## Installation
 ```
