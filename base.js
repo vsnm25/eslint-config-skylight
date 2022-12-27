@@ -1,3 +1,5 @@
+require('@rushstack/eslint-patch/modern-module-resolution');
+
 module.exports = {
     extends: ['airbnb-base'],
     parserOptions: { ecamVersion: 'latest' },
