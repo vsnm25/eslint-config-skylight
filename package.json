@@ -5,7 +5,9 @@
   "main": "index.js",
   "keywords": [
     "eslint",
-    "react"
+    "react",
+    "prettier",
+    "next"
   ],
   "author": {
     "email": "vsnm25@gmail.com",
