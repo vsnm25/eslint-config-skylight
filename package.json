@@ -18,10 +18,11 @@
   "exports": {
     ".": "./index.js",
     "./base": "./base.js",
-    "./prettier": "./prettier.js"
+    "./prettier": "./prettier.js",
+    "./next": "./next.js"
   },
-  "devDependencies": {},
   "dependencies": {
+    "@next/eslint-plugin-next": "^13.1.1",
     "@rushstack/eslint-patch": "^1.2.0",
     "@typescript-eslint/eslint-plugin": "^5.47.0",
     "@typescript-eslint/parser": "^5.47.0",
