@@ -26,6 +26,9 @@ This entry point enables the linting rules for `prettier`.
 ### skylight/next
 This entry point enables the linting rules for `next`.
 
+### skylight/storybook
+This entry point enables the linting rules for `storybook`.
+
 ## Usage
 
 ### eslintrc.js
@@ -35,7 +38,8 @@ module.exports = {
   extends: [
     'skylight',
     'skylight/prettier',
-    'skylight/next'
+    'skylight/next',
+    'skylight/storybook',
   ],
   parserOptions: {
     project: 'tsconfig.json',
