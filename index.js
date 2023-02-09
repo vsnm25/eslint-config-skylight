@@ -15,7 +15,15 @@ const rules = {
   ],
   'react/prop-types': 'off',
   'react/require-default-props': 'off',
+  'react/no-array-index-key': 'off',
+  'react/no-danger': 'off',
+  'react/react-in-jsx-scope': 'off',
+  'import/extensions': 'off',
+  'import/no-extraneous-dependencies': 'off',
+  'import/prefer-default-export': 'off',
+  'no-param-reassign': 'off',
 };
+
 
 module.exports = {
   env: { browser: true },
@@ -31,7 +39,11 @@ module.exports = {
         'airbnb/hooks',
       ],
       files: '**/*.ts?(x)',
-      rules,
+      rules:{
+        ...rules,
+        '@typescript-eslint/naming-convention': 'off',
+        '@typescript-eslint/no-use-before-define': 'off',
+      },
     },
   ],
 };
