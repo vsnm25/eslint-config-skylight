@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-skylight",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "eslint config by vsnm25",
   "main": "index.js",
   "keywords": [
@@ -21,7 +21,8 @@
     ".": "./index.js",
     "./base": "./base.js",
     "./prettier": "./prettier.js",
-    "./next": "./next.js"
+    "./next": "./next.js",
+    "./storybook": "./storybook.js"
   },
   "dependencies": {
     "@next/eslint-plugin-next": "^13.1.1",
