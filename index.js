@@ -13,6 +13,10 @@ const rules = {
     'warn',
     { callbacksLast: true, reservedFirst: true, shorthandLast: true },
   ],
+  'react/no-unstable-nested-components': [
+    'error', 
+    { allowAsProps: true }
+  ],
   'react/prop-types': 'off',
   'react/require-default-props': 'off',
   'react/no-array-index-key': 'off',
