@@ -19,10 +19,18 @@ module.exports = {
     rules,
     overrides: [
         {
-            extends: ['airbnb-base', 'airbnb-typescript/base'],
+            extends: [
+                'airbnb-base', 
+                'airbnb-typescript/base', 
+                'plugin:typescript-sort-keys/recommended'
+            ],
             files: '**/*.ts?(x)',
             plugins: ['typescript-sort-keys'],
-            rules,
+            rules: {
+                ...rules,
+                'typescript-sort-keys/interface': 'warn',
+                'typescript-sort-keys/string-enum': 'warn',
+            },
         }
     ]
 }
