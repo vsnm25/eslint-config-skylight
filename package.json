@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-skylight",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "eslint config by vsnm25",
   "main": "index.js",
   "keywords": [
